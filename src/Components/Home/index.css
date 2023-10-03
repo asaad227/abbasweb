@@ -43,3 +43,10 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width:600px) {
+  .App-header{
+    min-height: 82vh;
+  }
+  
+}
