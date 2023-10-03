@@ -1,9 +1,12 @@
-import logo from './abbasLogo.png';
-import './App.css';
 
-function App() {
+import Nav from '../Nav';
+import logo from './abbasLogo.png';
+import './index.css';
+
+function Home() {
   return (
     <div className="App">
+    <Nav/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -16,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
