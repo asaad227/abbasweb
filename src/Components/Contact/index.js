@@ -1,5 +1,8 @@
 import React, { useRef } from 'react';
+import './index.css'
 import emailjs from '@emailjs/browser'
+import Nav from '../Nav';
+
 
 export const ContactUs = () => {
   const form = useRef();
@@ -16,14 +19,17 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+    <div>
+    <Nav/>
+    <form className='container-fluid' style={{width:500}}  ref={form} onSubmit={sendEmail}>
+      <label className='form-label' style={{color:'white'}}>Name</label>
+      <input className='form-control'  type="text" name="user_name" />
+      <label className='form-label' style={{color:'white'}}>Email</label>
+      <input className='form-control' type="email" name="user_email" />
+      <label className='form-label' style={{color:'white'}}>Message</label>
+      <textarea style={{height:200}} className='form-control' name="message" />
+      <input type="submit" className='btn btn-primary btn-submit' value="Send" />
     </form>
+    </div>
   );
 };

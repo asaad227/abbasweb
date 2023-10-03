@@ -1,21 +1,11 @@
 import React from 'react'
-import './index.css'
-import Nav from '../Nav';
-export default function Services() {
+import Nav from '../Nav'
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log("Form submitted");
-    }
+export default function Services() {
   return (
-    <div>
+    <div style={{color:"white"}}>
     <Nav/>
-        <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
-            <input type="text" placeholder="Message" />
-            <input type="submit" value="Submit" />
-        </form>
+    list of services
     </div>
   )
 }

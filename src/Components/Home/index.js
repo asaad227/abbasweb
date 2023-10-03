@@ -1,6 +1,6 @@
 
 import Nav from '../Nav';
-import logo from './abbasLogo.png';
+
 import './index.css';
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
     <div className="App">
     <Nav/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+       
         <p>
           Website under construction - please check back soon!
         </p>
