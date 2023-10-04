@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 a {
@@ -21,8 +22,7 @@ a:hover {
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,4 +42,11 @@ a:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width:600px) {
+  .App-header{
+    min-height: 82vh;
+  }
+  
 }
