@@ -2,7 +2,23 @@
   text-align: center;
  
 }
-
+/* making flex box */
+.boxItem{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 50px 20px;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+}
+.boxItem>p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
 .App-logo {
   height: 10vmin;
   pointer-events: none;
