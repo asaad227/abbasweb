@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import Nav from '../Nav';
+import logo from "../Home/logo.png"
 
 import './index.css';
 
@@ -8,15 +9,20 @@ function Home() {
   return (
     <div className="App">
     {/* <Nav/> */}
+    <div className='divider'>
+    <img src={logo} className="App-logo" alt="logo" />
+    <h3>Gulamabbas & Co</h3>
+
       <header className="App-header">
       <div className='boxItem'>
-<p>
+<p className='part-one'>
   Accounting
   <br></br>
   You Can
   <br></br>
   Count On
-  <br></br>
+  </p>
+  <p className='part-two'>
   Get started
   <br></br>
   with a free
@@ -26,8 +32,9 @@ function Home() {
   !
 </p>
 <div>
-<li><button><Link to="/contact">Contact</Link></button></li>
+<li><button><Link to="/contact">Get in touch</Link></button></li>
 </div>
+
 
 </div>
         <p>
@@ -37,6 +44,7 @@ function Home() {
         </a>
       </header>
      
+    </div>
     </div>
   );
 }
