@@ -11,7 +11,7 @@ export default function Nav() {
      
       <li><Link to="/">
       <i className="fa fa-home"></i>
-      Home</Link></li>
+    </Link></li>
       <li><Link to="/services">Services</Link></li>
       <li><Link to="/about">About us</Link></li>
       <li><button><Link to="/contact">Get in touch</Link></button></li>

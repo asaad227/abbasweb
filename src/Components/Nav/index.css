@@ -1,5 +1,4 @@
 .navBar {
-  background-color: #000;
   color: #fff;
   display: flex;
   align-items: center;
@@ -29,8 +28,20 @@ li {
 
   @media screen and (max-width:600px) {
     .navBar{
-      flex-direction: column;
-      height: auto;
+      flex-direction: row;
+        justify-content: space-between;
+    }
+    .navBar>li{
+      margin: 1rem 0;
+    }   
+
+    .navBar>li>button{
+      padding: 0.1rem 0.3rem;
+      border-radius: 5px;
+      border: none;
+      color: #0f0f0f;
+      font-size: 1rem;
+      cursor: pointer;
     }
     
   }
