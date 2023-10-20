@@ -14,9 +14,18 @@
         width: 100px;
     }
 .form-control{
-    width: 80vw;
+    width: 65vw;
 }
 
+.container-fluid{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
 
 
     

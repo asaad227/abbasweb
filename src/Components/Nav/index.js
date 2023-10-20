@@ -13,8 +13,8 @@ export default function Nav() {
       <i className="fa fa-home"></i>
     </Link></li>
       <li><Link to="/services">Services</Link></li>
-      <li><Link to="/about">About us</Link></li>
-      <li><button><Link to="/contact">Get in touch</Link></button></li>
+      <li><Link to="/about">About</Link></li>
+      <li><button><Link to="/contact">Contact</Link></button></li>
       
 
     </div>
