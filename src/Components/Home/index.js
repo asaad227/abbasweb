@@ -8,13 +8,11 @@ import './index.css';
 function Home() {
   return (
     <div className="App">
-    {/* <Nav/> */}
-    <div className='divider'>
+   <div className='header'>
     <img src={logo} className="App-logo" alt="logo" />
     <h3>Gulamabbas & Co</h3>
-
-      <header className="App-header">
-      <div className='boxItem'>
+</div>
+<div className='txt-getInTouch'>
 <p className='part-one'>
   Accounting
   <br></br>
@@ -31,20 +29,20 @@ function Home() {
   <br></br>
   !
 </p>
-<div>
+
 <li><button><Link to="/contact">Get in touch</Link></button></li>
 </div>
 
 
-</div>
+<footer className='footer-para'>
         <p>
           Website under construction - please check back soon!
         </p>
       More info: <a href="mailto:info@gulamabbasaccounts.co.uk">info@gulamabbasaccounts.co.uk
         </a>
-      </header>
+  
      
-    </div>
+</footer>
     </div>
   );
 }
