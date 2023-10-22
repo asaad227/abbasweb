@@ -2,10 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1rem;
     width: 200px;
     border-radius: 5px;
-    
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    padding: 0.5rem 1rem;
 
 }
 
@@ -14,13 +20,27 @@
         width: 100px;
     }
 .form-control{
-    width: 65vw;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #0f0f0f;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+
 }
 
 .container-fluid{
     display: flex;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
     flex-direction: column;
     align-items: start;
     justify-content: center;
