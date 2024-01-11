@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom';
-import Nav from '../Nav';
-import logo from "../Home/logo.png"
+import logo from "../Home/logo.png";
+import Acc from "../Home/3992745.jpg"
 
 import './index.css';
 
@@ -12,6 +12,7 @@ function Home() {
     <img src={logo} className="App-logo" alt="logo" />
     <h3>Gulamabbas & Co</h3>
 </div>
+<div className='main-display-box'>
 <div className='txt-getInTouch'>
 <p className='part-one'>
   Accounting
@@ -32,6 +33,11 @@ function Home() {
 
 <li><button><Link to="/contact">Get in touch</Link></button></li>
 </div>
+<div className='txt-getInTouch'>
+<img src={Acc} className="Acc" alt="Acc" />
+</div>
+</div>
+
 
 
 <footer className='footer-para'>

@@ -1,0 +1,108 @@
+.main-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 100%;
+}
+.logo-min{
+    display: none;
+}
+.home-min{
+    display: none;
+}
+.header-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    width: 40%;
+}
+.button-home{
+    display: flex;
+    flex-direction: row;
+ justify-content: center;
+    align-items: center;
+ margin-right: 5%;
+    width: 100%
+ 
+
+   
+}
+.home-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    width: 65vw;
+}
+.logo-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    width: 25vw;
+}
+.button-about-us, .button-get-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    width: 100%
+
+}
+@media screen and (max-width:600px) {
+    .main-home{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .header-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .button-home{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .home-min{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       padding-top: 10%;
+       margin-left: -8%;
+        margin-bottom: 10%;
+        align-items: center;
+        width: 100vw;
+     
+    }
+    .logo-min{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    }
+
+    .logo-home{
+        display: none;
+    }
+    .home-img{
+        display: none;
+    }
+
+    
+    
+}
