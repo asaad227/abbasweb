@@ -22,11 +22,11 @@ export const ContactUs = () => {
     <div>
     <Nav/>
     <form className='container-fluid' style={{width:500}}  ref={form} onSubmit={sendEmail}>
-      <label className='form-label' style={{color:'white'}}>Name</label>
+      <label className='form-label' >Name</label>
       <input className='form-control'  type="text" name="user_name" />
-      <label className='form-label' style={{color:'white'}}>Email</label>
+      <label className='form-label' >Email</label>
       <input className='form-control' type="email" name="user_email" />
-      <label className='form-label' style={{color:'white'}}>Message</label>
+      <label className='form-label' >Message</label>
       <textarea style={{height:200}} className='form-control' name="message" />
       <input type="submit" className='btn btn-primary btn-submit' value="Send" />
     </form>
