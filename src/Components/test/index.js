@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import homenew from './Abbas-home.png';
-import logohome from "../Home/abbasLogo.png";
+import logohome from "./abbasLogo.png";
 import { Link } from 'react-router-dom';
 
 export default function Test() {

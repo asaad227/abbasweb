@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css';
-import Home from '../Home';
 import Services from '../Services';
 import About from '../About';
 
