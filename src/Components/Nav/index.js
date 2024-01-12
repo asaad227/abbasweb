@@ -11,10 +11,10 @@ export default function Nav() {
       <li><Link to="/">
       <i className="fa fa-home"></i>
     </Link></li>
-      <li><button><Link to="/services">Services</Link></button></li>
+      {/* <li><button><Link to="/services">Services</Link></button></li>
       <li><button><Link to="/about">About</Link></button></li>
       <li><button><Link to="/contact">Contact</Link></button></li>
-      
+       */}
 
     </div>
   )

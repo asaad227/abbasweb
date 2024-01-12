@@ -6,6 +6,40 @@
     width: 100%;
 
 }
+.free-session-mobile{
+    display: none;
+
+}
+.header-text-desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.header-text-mobile{
+    display: none;
+}
+.free-session{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.free-session-desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
 
 .main-home{
     display: flex;
@@ -47,7 +81,9 @@
     align-items: center;
     margin-right: 10%;
     width: 65vw;
+    
 }
+
 .logo-home{
     display: flex;
     flex-direction: column;
@@ -76,7 +112,21 @@ a{
     width: 100%
 
 }
-
+.free-session-btn{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    width: 75%;
+}
 .footer-home{
     display: flex;
     flex-direction: row;
@@ -109,7 +159,6 @@ a{
         flex-direction: row;
         justify-content: center;
         padding-top: 20%;
-        padding-bottom: 20%;
     }
     .home-min{
         display: flex;
@@ -136,6 +185,30 @@ a{
         display: none;
     }
 
-    
-    
+    .free-session-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+       
+    }
+
+    .free-session-desktop{
+        display: none;
+    }
+    .header-text-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .header-text-desktop{
+        display: none;
+    }
 }

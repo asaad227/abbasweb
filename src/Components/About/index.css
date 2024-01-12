@@ -18,3 +18,33 @@
     background-color: #fff;
 }
 
+.navbar-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+      
+    }
+.my-element{
+    padding-top: 30%;
+}
+    .navbar-desktop{
+        display: none;
+
+    }
+    
+}

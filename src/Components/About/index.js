@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css';
-import Nav from '../Nav';
+import BurgerMenu from '../../Navburger/BurgerMenu';
 
 export default function About() {
   return (
     <div>
-<Nav/>
+<BurgerMenu />
 <div className='flexabout'>
   <p className='my-element'>Abbas Gulamabbas is a highly qualified and experienced Certified Chartered Accountant (FCCA) with over 17 years of expertise in the field. His professional focus revolves around corporate and personal tax matters, making him a valuable asset to a diverse range of clients. Abbas specializes in catering to businesses of various sizes, from sole traders and small to medium-sized enterprises (SMEs) to large corporations.
   <br></br>

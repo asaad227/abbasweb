@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import './index.css'
 import emailjs from '@emailjs/browser'
+import BurgerMenu from '../../Navburger/BurgerMenu';
 import Nav from '../Nav';
 
 
@@ -20,8 +21,10 @@ export const ContactUs = () => {
 
   return (
     <div>
-    <Nav/>
-    <form className='container-fluid' style={{width:500}}  ref={form} onSubmit={sendEmail}>
+ <BurgerMenu/>
+ <div className='contact-main'>
+ <h4 className='contact-us'>Contact Us</h4>
+ <form className='container-fluid'  ref={form} onSubmit={sendEmail}>
       <label className='form-label' >Name</label>
       <input className='form-control'  type="text" name="user_name" />
       <label className='form-label' >Email</label>
@@ -30,6 +33,8 @@ export const ContactUs = () => {
       <textarea style={{height:200}} className='form-control' name="message" />
       <input type="submit" className='btn btn-primary btn-submit' value="Send" />
     </form>
+ </div>
+   
     </div>
   );
 };
