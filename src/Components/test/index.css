@@ -1,9 +1,18 @@
+.flexhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
 .main-home{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
- 
+    height: 90vh;
     width: 100%;
 }
 .logo-min{
@@ -67,12 +76,25 @@ a{
     width: 100%
 
 }
+
+.footer-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
 @media screen and (max-width:600px) {
     .main-home{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        height: 95vh;
         width: 100%;
     }
     .header-home{

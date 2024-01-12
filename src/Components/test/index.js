@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Test() {
   return (
-    <div>
+    <div className='flexhome'>
     <div className='main-home'>
         <div className='header-home'>    
     <img src={logohome} className="logo-home" alt="logo-home" />
@@ -20,7 +20,9 @@ export default function Test() {
     <img src={logohome}  className='logo-min' alt='logo-img'/>
 
     </div>
-  
+  <footer className='footer-home'>
+  <p className='footer-text'>© 2023 Gulamabass & Co. All rights reserved.</p>
+  </footer>
     </div>
   )
 }

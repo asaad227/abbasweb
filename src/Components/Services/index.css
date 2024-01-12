@@ -1,0 +1,55 @@
+.services{
+    display: flex;
+    flex-direction: column;
+}
+.services-text{
+    display: none;
+}
+.services-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.services-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Abbas-services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    height: 150vh;
+
+}
+
+@media  screen and (max-width: 600px) {
+    .services-box{
+        display: none;
+    }
+    .services-title{
+        margin-top: 2rem;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .services-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .services-box{
+        display: none;
+    }
+}
