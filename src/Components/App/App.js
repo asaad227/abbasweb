@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
-import Services from '../Services';
+import Service from '../Services/service';
+import Services from '../Services/index';
 import About from '../About';
 
 import { Routes, Route } from 'react-router-dom';
@@ -15,6 +16,7 @@ export default function App() {
     <Route path='/' element={<Test/>}/>
     <Route path="*" element={<h1>404 Not Found</h1>}/>
     <Route path='/services' element={<Services/>}/>
+    <Route path='/service' element={<Service/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<ContactUs/>}/>
     </Routes>

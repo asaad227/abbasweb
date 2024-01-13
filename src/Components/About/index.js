@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import BurgerMenu from '../../Navburger/BurgerMenu';
+import BurgerMenu from '../Navburger/BurgerMenu';
 
 export default function About() {
   return (

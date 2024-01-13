@@ -45,6 +45,25 @@
         margin-bottom: 2rem;
        
     }
+
+    .services-header{
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-para{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        justify-content: center;
+        margin-top: 15%;
+        padding: 0 10%;
+    }
     .services-text{
         display: flex;
         flex-direction: column;
