@@ -49,7 +49,7 @@ const libary = [{
 {
     id:6,
     title:"VAT RETURNS",
-    description:"VAT returns need to be filed on a quarterly basis with HMRC. Again, here at Phoenix Financials we are happy to take on this financial requirement. With experience with a variety of VAT schemes, we have the expertise in all your VAT needs. Making Tax Digital requires all companies to file their VAT returns and payments online. We have the software capabilities to make your compliance as smooth as possible.",
+    description:"VAT returns need to be filed on a quarterly basis with HMRC. Again, here at Golamabbas & Co we are happy to take on this financial requirement. With experience with a variety of VAT schemes, we have the expertise in all your VAT needs. Making Tax Digital requires all companies to file their VAT returns and payments online. We have the software capabilities to make your compliance as smooth as possible.",
     img:"https://github.com/asaad227/abbasweb/blob/main/src/Components/pictures/VAT_RETURNS.jpeg?raw=true",
     alt:"vat returns",
     path:"/vat-returns",
