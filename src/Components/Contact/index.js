@@ -2,7 +2,8 @@ import React, { useRef } from 'react';
 import './index.css'
 import emailjs from '@emailjs/browser'
 import BurgerMenu from '../Navburger/BurgerMenu';
-import Nav from '../Nav';
+import canary from "../pictures/canary-wharf.jpeg"
+
 
 
 export const ContactUs = () => {
@@ -23,16 +24,20 @@ export const ContactUs = () => {
     <div>
       <BurgerMenu />
       <div className='contact-main'>
-        <h4 className='contact-us'>Contact Us</h4>
-        <form className='container-fluid' ref={form} onSubmit={sendEmail}>
-          <label className='form-label' >Name</label>
-          <input className='form-control' type="text" name="user_name" />
-          <label className='form-label' >Email</label>
-          <input className='form-control' type="email" name="user_email" />
-          <label className='form-label' >Message</label>
+        <h2 >Contact Us</h2>
+        <p>For any enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
+        
+        <img src={canary} alt='canary'/>
+        <form ref={form} onSubmit={sendEmail}>
+          <label >Name</label>
+          <input type="text" name="user_name" />
+          <label  >Email</label>
+          <input type="email" name="user_email" />
+          <label >Message</label>
           <textarea style={{ height: 200 }} className='form-control' name="message" />
           <input type="submit" className='btn btn-primary btn-submit' value="Send" />
         </form>
+   
       </div>
 
     </div>
