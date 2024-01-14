@@ -5,7 +5,7 @@ import { useState } from 'react'
 import services from '../lib'
 
 export default function Services() {
-  const [libary, setLibary] = useState(services)
+  const [libary,] = useState(services)
   return (
     <div >
       <BurgerMenu />

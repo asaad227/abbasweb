@@ -1,0 +1,64 @@
+
+.privacy-main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: normal;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-main, h1, h2, h3 {
+    color: #333;
+}
+
+ .privacy-main  a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.privacy-main  a:hover {
+    text-decoration: underline;
+}
+
+.privacy-main  p {
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+.privacy-main  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Footer styles */
+.privacy-main footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* List styles */
+ul, ol {
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .privacy-main {
+        width: 80%;
+    }
+}
