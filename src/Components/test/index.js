@@ -35,7 +35,8 @@ export default function Test() {
     <img src={logohome}  className='logo-min' alt='logo-img'/>
     </div>
   <footer className='footer-home'>
-  <p className='footer-text'>© 2023 Gulamabass & Co. All rights reserved.</p>
+  <p className='footer-text'>© 2023 Gulamabass & Co. All rights reserved.<br></br> Design by Ahammed Saad | <a href="/privacy">Privacy policy</a></p>
+
   </footer>
     </div>
   )

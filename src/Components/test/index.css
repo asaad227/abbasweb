@@ -94,15 +94,13 @@
     margin-top: 10%;
     margin-bottom: -20%;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
+
 .button-about-us, .button-get-in{
     display: flex;
     flex-direction: row;
     font-weight: bold;
     background-color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -114,6 +112,18 @@ a{
     width: 100%
 
 }
+.button-about-us:hover, .button-get-in:hover{
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+.button-about-us a, .button-get-in a{
+    text-decoration: none;
+    color: black;
+}
+.button-about-us a:hover, .button-get-in a:hover{
+    color: royalblue;
+}
+
 .free-session-btn{
     display: flex;
     flex-direction: row;
@@ -129,6 +139,19 @@ a{
     margin-right: 5%;
     width: 75%;
 }
+
+.free-session-btn a{
+    text-decoration: none;
+    color: black;
+}
+.free-session-btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.free-session-btn a:hover{
+    color: white;
+}
 .footer-home{
     display: flex;
     flex-direction: row;
@@ -139,6 +162,15 @@ a{
     padding-top: 1%;
     padding-bottom: 1%;
 
+}
+
+.footer-home a{
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;  
+}
+.footer-home a:hover{
+    color: royalblue;
 }
 @media screen and (max-width:600px) {
     .main-home{
@@ -212,4 +244,26 @@ a{
     .header-text-desktop{
         display: none;
     }
+
+  .free-session-btn{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    width: 75%;}
+
+    .free-session-btn a{
+        text-decoration: none;
+        color: white;
+    }
+    
 }

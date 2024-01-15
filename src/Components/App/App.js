@@ -11,7 +11,7 @@ import Privacy from '../Privacy';
 
 export default function App() {
   return (
-    <div>
+    <div className='App'>
 <Routes>
     <Route path='/' element={<Test/>}/>
     <Route path="*" element={<h1>404 Not Found</h1>}/>
@@ -23,11 +23,14 @@ export default function App() {
     <CookieConsent
         location="bottom"
         buttonText="Accept"
+        declineButtonText="Decline"
+        enableDeclineButton={true}
         cookieName="myCookieConsent"
         style={{ background: '#2B373B' }}
         buttonStyle={{ color: '#4e503b', fontSize: '13px' }}
+        declineButtonStyle={{ color: 'white', fontSize: '13px' }}
       >
-        This website uses cookies to enhance the user experience. More info <a href="/privacy">here</a>.
+        This website uses cookies to enhance the user experience. More info <a style={{color:'gold', textDecoration:'none'}} href="/privacy">here</a>.
       </CookieConsent>
     </div>
   )

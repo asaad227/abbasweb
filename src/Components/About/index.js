@@ -10,7 +10,7 @@ export default function About() {
 <div className='about'>
   <h1>About Us</h1>
   <img src={accounting} alt='accounting'/>
-  <h3>Abbas Gulamabbas FCCA</h3>
+  <h2>Abbas Gulamabbas</h2>
   <h5>Chartered Certified Accountant</h5>
   <p>Abbas Gulamabbas is a highly qualified and experienced Certified Chartered Accountant (FCCA) with over 17 years of expertise in the field. His professional focus revolves around corporate and personal tax matters, making him a valuable asset to a diverse range of clients. Abbas specializes in catering to businesses of various sizes, from sole traders and small to medium-sized enterprises (SMEs) to large corporations.
   <br></br>
