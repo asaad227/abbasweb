@@ -4,7 +4,7 @@ import Services from '../Services/index';
 import About from '../About';
 import { Routes, Route } from 'react-router-dom';
 import { ContactUs } from '../Contact';
-import Test from '../test';
+import Home from '../Home';
 import CookieConsent from 'react-cookie-consent';
 import Privacy from '../Privacy';
 
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className='App'>
 <Routes>
-    <Route path='/' element={<Test/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path="*" element={<h1>404 Not Found</h1>}/>
     <Route path='/services' element={<Services/>}/>
     <Route path='/about' element={<About/>}/>

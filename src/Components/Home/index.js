@@ -3,8 +3,9 @@ import './index.css';
 import homenew from './Abbas-home.png';
 import logohome from "./abbasLogo.png";
 import { Link } from 'react-router-dom';
+import ACCA from "./ACCA LOGO RED.png"
 
-export default function Test() {
+export default function Home() {
   return (
     <div className='flexhome'>
     <div className='main-home'>
@@ -35,6 +36,7 @@ export default function Test() {
     <img src={logohome}  className='logo-min' alt='logo-img'/>
     </div>
   <footer className='footer-home'>
+  <img src={ACCA} alt='acca logo'/>
   <p className='footer-text'>© 2023 Gulamabass & Co. All rights reserved.<br></br> Design by Ahammed Saad | <a href="/privacy">Privacy policy</a></p>
 
   </footer>

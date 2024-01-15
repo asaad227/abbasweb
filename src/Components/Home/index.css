@@ -163,6 +163,14 @@
     padding-bottom: 1%;
 
 }
+.footer-home img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+   margin: 0 1%;
+}
 
 .footer-home a{
     text-decoration: none;
@@ -265,5 +273,7 @@
         text-decoration: none;
         color: white;
     }
-    
+    .footer-home img{
+        width: 6%;
+    }
 }
