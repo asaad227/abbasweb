@@ -26,7 +26,6 @@ export const ContactUs = () => {
       <div className='contact-main'>
         <h2 >Contact Us</h2>
         <p>For any enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
-        
         <img src={canary} alt='canary'/>
         <form ref={form} onSubmit={sendEmail}>
           <label >Name</label>

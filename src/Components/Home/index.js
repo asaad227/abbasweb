@@ -11,8 +11,10 @@ export default function Home() {
     <div className='main-home'>
         <div className='header-home'>    
     <img src={logohome} className="logo-home" alt="logo-home" />
+    <p><strong>Mobile:</strong>+44 078 9426 6018 <br></br> 
+   <strong>Email:</strong> info@gulamabbasaccountants.co.uk</p>
     <h6 className='header-text-mobile'>"Count on Us for Financial Success – Your Numbers, Our Expertise!"</h6>
-    <h6 className='header-text-desktop'>"Count on Us for Financial Success – Your Numbers, Our Expertise!"</h6>
+    <h5 className='header-text-desktop'>"Count on Us for Financial Success – Your Numbers, Our Expertise!"</h5>
     <div className='free-session-mobile'>
  <h6>One hour free consultation </h6>
  <button className='free-session-btn' ><Link to="/contact">click here</Link></button>

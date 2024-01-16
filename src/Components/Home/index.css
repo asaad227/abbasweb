@@ -10,14 +10,21 @@
     display: none;
 
 }
+.main-home p{
+    font-weight: 400;
+    margin-bottom: 15%;
+    margin-top: -15%;
+    text-align: center;
+    width: 100%;}
 .header-text-desktop{
     display: flex;
     flex-direction: column;
+    font-weight: 500;
     justify-content: center;
+    color: #004aad;
     align-items: center;
     width: 100%;
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 .header-text-mobile{
     display: none;
@@ -91,8 +98,8 @@
     align-items: center;
     margin-right: 10%;
     width: 25vw;
-    margin-top: 10%;
-    margin-bottom: -20%;
+   
+   
 }
 
 .button-about-us, .button-get-in{
@@ -128,7 +135,8 @@
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    background-color: white;
+    background-color: royalblue;
+    color: white;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -142,16 +150,14 @@
 
 .free-session-btn a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .free-session-btn:hover{
     background-color: green;
     cursor: pointer;
 }
 
-.free-session-btn a:hover{
-    color: white;
-}
+
 .footer-home{
     display: flex;
     flex-direction: row;
@@ -189,6 +195,16 @@
         height: 95vh;
         width: 100%;
     }
+
+    .main-home p{
+        font-size: xx-small;
+        font-weight: 400;
+        margin-right: 35px;
+        margin-bottom: 15%;
+        margin-top: -5%;
+        text-align: center;
+        width: 100%;
+    }
     .header-home{
         display: flex;
         flex-direction: column;
@@ -207,7 +223,7 @@
         justify-content: center;
        /* padding-top: 10%; */
        margin-left: -8%;
-        margin-bottom: 10%;
+      
         align-items: center;
         width: 100vw;
      
@@ -216,7 +232,8 @@
         display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
+    margin-top: -15%;
+    width: 31vw;
     }
 
     .logo-home{
@@ -244,9 +261,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        color: #004aad;
+        font-weight: 400;
         width: 100%;
         /* margin-top: 10%; */
-        margin-bottom: 10%;
+        margin-bottom: 15%;
+        padding-right: 5%;
     }
 
     .header-text-desktop{
