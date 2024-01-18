@@ -35,8 +35,6 @@
 }
 
 .contact-main p{
-    text-align: justify;
-    text-justify: inter-word;
     word-spacing: normal;
     margin-bottom: 20px;
 
@@ -59,7 +57,9 @@
     width: 50%;
     margin-bottom: 10%;
 }
-
+.form-note{
+  text-align: justify;
+}
 @media screen and (max-width:600px) {
     .contact-main{
         margin-top: 10%;

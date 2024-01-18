@@ -28,8 +28,8 @@ export const ContactUs = () => {
           <h1>Contact Information</h1>
           <img src={canary} alt='canary'/>
           <h3>Phone & Email</h3>
-          <p>Mobile: +44 078 9426 6018 <br></br>
-            Email: info@gulamabbasaccountants.co.uk</p>
+          <p><strong> Mobile:</strong>+44 078 9426 6018 <br></br>
+            <strong> Email:</strong> info@gulamabbasaccountants.co.uk</p>
           <h3>Address</h3>
           <p>Unit 7, Vulcan House, Restmor Way, Hackbridge, Surrey SM6 7AH</p>
           <h3>Opening Hours</h3>
@@ -37,7 +37,7 @@ export const ContactUs = () => {
           <p>Saturday - Sunday: Closed</p>
          
         <h3>Get in touch</h3>
-        <p>For one hour free consultation or more enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
+        <p className='form-note'>For one hour free consultation or more enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <label >Name</label>
