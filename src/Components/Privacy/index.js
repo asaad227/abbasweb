@@ -13,7 +13,7 @@ export default function Privacy() {
       <section>
         <h2>Last updated: 14/01/2024</h2>
         <p>
-          Gulamabbas & Co ("us", "we", or "our") operates https://www.gulamabbasaccountants.co.uk/ (the "Site"). This page informs you of our policies regarding the collection, use, and disclosure of Personal Information we receive from users of the Site.
+          Gulamabbas & Co ("us", "we", or "our") operates www.gulamabbasaccountants.co.uk (the "Site"). This page informs you of our policies regarding the collection, use, and disclosure of Personal Information we receive from users of the Site.
         </p>
       </section>
       <section>
