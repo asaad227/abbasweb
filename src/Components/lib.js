@@ -40,7 +40,7 @@ const libary = [{
 {
     id:5,
     title:"MANAGEMENT ACCOUNTS",
-    description:"Here at Golamabbas & Co, this is where we believe we can add real value to our clients. Providing real-time information at regular intervals throughout the year, for our clients to make informed decisions on future business ventures. This is a key tool for tax planning as well as financial forecasting.",
+    description:"Here at Gulamabbas & Co, this is where we believe we can add real value to our clients. Providing real-time information at regular intervals throughout the year, for our clients to make informed decisions on future business ventures. This is a key tool for tax planning as well as financial forecasting.",
     img:"https://github.com/asaad227/abbasweb/blob/main/src/Components/pictures/MANAGEMENT_ACCOUNTS.jpeg?raw=true",
     alt:"management accounts",
     path:"/management-accounts",
@@ -49,7 +49,7 @@ const libary = [{
 {
     id:6,
     title:"VAT RETURNS",
-    description:"VAT returns need to be filed on a quarterly basis with HMRC. Again, here at Golamabbas & Co we are happy to take on this financial requirement. With experience with a variety of VAT schemes, we have the expertise in all your VAT needs. Making Tax Digital requires all companies to file their VAT returns and payments online. We have the software capabilities to make your compliance as smooth as possible.",
+    description:"VAT returns need to be filed on a quarterly basis with HMRC. Again, here at Gulamabbas & Co we are happy to take on this financial requirement. With experience with a variety of VAT schemes, we have the expertise in all your VAT needs. Making Tax Digital requires all companies to file their VAT returns and payments online. We have the software capabilities to make your compliance as smooth as possible.",
     img:"https://github.com/asaad227/abbasweb/blob/main/src/Components/pictures/VAT_RETURNS.jpeg?raw=true",
     alt:"vat returns",
     path:"/vat-returns",

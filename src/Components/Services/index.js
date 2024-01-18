@@ -12,7 +12,7 @@ export default function Services() {
 
       <div className='services'>
         <h1>Services</h1>
-        <p>Here at Golamabbas & Co, we offer a wide range of services to help you and your business. We are always happy to discuss your requirements and tailor our services to your needs. Please see below for a list of services we offer.</p>
+        <p>Here at Gulamabbas & Co, we offer a wide range of services to help you and your business. We are always happy to discuss your requirements and tailor our services to your needs. Please see below for a list of services we offer.</p>
         {libary.map((e)=>{
           return(
             <div key={e.id} className='service'>
