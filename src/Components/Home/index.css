@@ -199,7 +199,6 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        height: 95vh;
         width: 100%;
     }
 
@@ -277,7 +276,10 @@
     .header-text-desktop{
         display: none;
     }
-
+.button-about-us, .button-get-in{
+    margin-bottom: 5%;
+    width: 40%;
+}
   .free-session-btn{
     display: flex;
     flex-direction: row;
