@@ -39,7 +39,7 @@ export default function Home() {
     </div>
   <footer className='footer-home'>
   <img src={ACCA} alt='acca logo'/>
-  <p className='footer-text'>© 2023 Gulamabass & Co. All rights reserved.<br></br> Design by Ahammed Saad | <a href="/privacy">Privacy policy</a></p>
+  <p className='footer-text'>© 2023 Gulamabass & Co. All rights reserved.<br></br> <a href="/privacy">Privacy policy</a> | <a href="/contact">Contact Us</a><br></br> Design by Ahammed Saad </p>
 
   </footer>
     </div>

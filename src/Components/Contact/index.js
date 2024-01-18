@@ -24,9 +24,21 @@ export const ContactUs = () => {
     <div>
       <BurgerMenu />
       <div className='contact-main'>
-        <h2 >Contact Us</h2>
-        <p>For any enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
-        <img src={canary} alt='canary'/>
+      <div className='contact-info'>
+          <h1>Contact Information</h1>
+          <img src={canary} alt='canary'/>
+          <h3>Phone & Email</h3>
+          <p>Mobile: +44 078 9426 6018 <br></br>
+            Email: info@gulamabbasaccountants.co.uk</p>
+          <h3>Address</h3>
+          <p>Unit 7, Vulcan House, Restmor Way, Hackbridge, Surrey SM6 7AH</p>
+          <h3>Opening Hours</h3>
+          <p>Monday - Friday: 9am - 5pm</p>
+          <p>Saturday - Sunday: Closed</p>
+         
+        <h3>Get in touch</h3>
+        <p>For one hour free consultation or more enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
+        </div>
         <form ref={form} onSubmit={sendEmail}>
           <label >Name</label>
           <input type="text" name="user_name" />
@@ -36,6 +48,7 @@ export const ContactUs = () => {
           <textarea style={{ height: 200 }} className='form-control' name="message" />
           <input type="submit" className='btn btn-primary btn-submit' value="Send" />
         </form>
+        
    
       </div>
 

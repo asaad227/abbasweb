@@ -17,7 +17,7 @@ export default function Services() {
           return(
             <div key={e.id} className='service'>
               <div className='service-container'>
-            <h2>{e.title}</h2>
+            <h3>{e.title}</h3>
             <img src={e.img} alt={e.alt}/>
               <p>{e.description}</p>
               
