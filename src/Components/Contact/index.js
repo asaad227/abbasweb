@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import './index.css'
 import emailjs from '@emailjs/browser'
-import BurgerMenu from '../Navburger/BurgerMenu';
+
 import canary from "../pictures/canary-wharf.jpeg"
 
 
@@ -21,8 +21,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div>
-      <BurgerMenu />
+    
       <div className='contact-main'>
       <div className='contact-info'>
           <h1>Contact Information</h1>
@@ -37,7 +36,7 @@ export const ContactUs = () => {
           <p>Saturday - Sunday: Closed</p>
          
         <h3>Get in touch</h3>
-        <p className='form-note'>For one hour free consultation or more enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
+        <p className='form-note'>For any enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <label >Name</label>
@@ -52,6 +51,5 @@ export const ContactUs = () => {
    
       </div>
 
-    </div>
   );
 };

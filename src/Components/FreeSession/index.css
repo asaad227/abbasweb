@@ -1,0 +1,67 @@
+
+
+.promotion-main{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+   margin-top: 5%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+}
+
+.promotion-main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.promotion-main form input{
+    width: 65%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.promotion-main form textarea{
+    width: 65%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.promotion-main p{
+  text-align: center;
+    word-spacing: normal;
+    margin-bottom: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+    .promotion-main{
+        margin-top: 15%;
+        width: 90%;
+    }
+    .promotion-main form{
+        width: 100%;
+    }
+    .promotion-main p{
+        text-align: justify;
+        text-justify: inter-word;
+        word-spacing: normal;
+        margin: 0 auto;
+        width: 85%;
+    }
+    .promotion-main img{
+        width: 90%;
+    }
+    
+}

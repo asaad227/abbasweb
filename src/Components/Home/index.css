@@ -1,8 +1,9 @@
 .flexhome{
     display: flex;
+    margin-top: 5%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
 
 }
@@ -58,9 +59,12 @@
 .main-home{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
 }
 .logo-min{
     display: none;
@@ -74,6 +78,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 5%;
+    width: 40%;
    
 }
 .button-home{
@@ -92,7 +97,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 35vw;
+    height: 65vh;
+    margin-top: 10%;
     
 }
 
@@ -101,7 +108,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25vw;
+    width: 20vw;
    
    
 }
@@ -172,8 +179,9 @@
     align-items: center;
     width: 100%;
     background-color: #F2F2F2;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+ 
 
 }
 .footer-home img{
@@ -195,11 +203,12 @@
 }
 @media screen and (max-width:600px) {
     .main-home{
+        margin-top: 10%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 85%;
     }
 
     .main-home p{
@@ -227,10 +236,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-       margin-left: -8%;
       
         align-items: center;
-        width: 100vw;
+        width: 60vw;
      
     }
     .logo-min{

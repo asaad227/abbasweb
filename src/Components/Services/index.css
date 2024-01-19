@@ -1,11 +1,15 @@
 .services{
-   
     width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
 }
+
+
+
+
 
 .services p{
     text-align: justify;
@@ -23,8 +27,8 @@
 
 @media screen and (max-width:600px) {
     .services{
-        margin-top: 10%;
-        width: 90%;
+        margin-top: 5%;
+        width: 85%;
     }
     .services p{
         width: 100%;

@@ -1,14 +1,12 @@
 import React from 'react'
 import './index.css'
-import BurgerMenu from '../Navburger/BurgerMenu'
 import { useState } from 'react'
 import services from '../lib'
 
 export default function Services() {
   const [libary,] = useState(services)
   return (
-    <div >
-      <BurgerMenu />
+
 
       <div className='services'>
         <h1>Services</h1>
@@ -27,7 +25,7 @@ export default function Services() {
           )
         })}
         </div>
-    </div>
+
 
   )
 }

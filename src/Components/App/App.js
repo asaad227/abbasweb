@@ -7,17 +7,22 @@ import { ContactUs } from '../Contact';
 import Home from '../Home';
 import CookieConsent from 'react-cookie-consent';
 import Privacy from '../Privacy';
+import Nav from '../Nav';
+import Promotion from '../FreeSession';
 
 
 export default function App() {
   return (
     <div className='App'>
+
+
 <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path="*" element={<h1>404 Not Found</h1>}/>
     <Route path='/services' element={<Services/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<ContactUs/>}/>
+    <Route path='/promotion' element={<Promotion/>}/>
     <Route path='/privacy' element={<Privacy/>}/>
     </Routes>
     <CookieConsent
