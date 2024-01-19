@@ -7,7 +7,7 @@ import { ContactUs } from '../Contact';
 import Home from '../Home';
 import CookieConsent from 'react-cookie-consent';
 import Privacy from '../Privacy';
-import Nav from '../Nav';
+
 import Promotion from '../FreeSession';
 
 
