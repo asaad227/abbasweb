@@ -1,14 +1,11 @@
 .navBar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
   background-color: #1a1a1a;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   box-sizing: border-box;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,30 +13,29 @@
 
 }
 
-
-li {
-  list-style: none;
-  margin: 0 1rem;
+.navBar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
 }
 
-  div>li>button{
-    padding: 0.3rem;
-    border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    color:white;
-    font-size: 1rem;
-    cursor: pointer;
+
+
+.fa-home, .fa-about, .fa-contact, .fa-services  {
+  font-size: 1rem;
+}
+
+.fa-home:hover, .fa-about:hover, .fa-contact:hover, .fa-services:hover {
+  color:gold;
+}
+
+@media screen and (min-width: 768px) {
+ 
+
+  .navBar a {
+    margin-left: 2rem;
   }
 
-  @media screen and (max-width:600px) {
+ 
   
-    .navBar>li>button{
-      font-size: 0.5rem;
-    }
-   .navBar>li{
-      margin: 0.2rem 0.2rem;
-      font-size: 0.75rem;
-   }
-  }
+}

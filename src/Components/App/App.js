@@ -2,29 +2,28 @@ import React from 'react'
 import './App.css';
 import Services from '../Services/index';
 import About from '../About';
-import { Routes, Route } from 'react-router-dom';
 import { ContactUs } from '../Contact';
 import Home from '../Home';
 import CookieConsent from 'react-cookie-consent';
-import Privacy from '../Privacy';
-
-import Promotion from '../FreeSession';
+import ACCA from '../Home/ACCA LOGO RED.png';
+import Nav from '../Nav';
+import Promotion from '../FreeSession/index';
 
 
 export default function App() {
   return (
     <div className='App'>
+<Nav/>
 
-
-<Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path="*" element={<h1>404 Not Found</h1>}/>
-    <Route path='/services' element={<Services/>}/>
-    <Route path='/about' element={<About/>}/>
-    <Route path='/contact' element={<ContactUs/>}/>
-    <Route path='/promotion' element={<Promotion/>}/>
-    <Route path='/privacy' element={<Privacy/>}/>
-    </Routes>
+    <div id='home'><Home/></div>
+      <div id='services'><Services/></div>
+    <div id='about'> <About/></div>
+   <div id='contact'> <ContactUs/></div>
+    <div id='promotion'><Promotion/></div>
+    <footer className='footer-home'>
+  <img src={ACCA} alt='acca logo'/>
+  <p className='footer-text'>© 2023 Gulamabass & Co. All rights reserved.<br></br> <a href="/privacy">Privacy policy</a> | Design by Ahammed Saad </p>
+  </footer>
     <CookieConsent
         location="bottom"
         buttonText="Accept"
