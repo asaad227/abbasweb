@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import logo from "../Home/ACCA LOGO RED.png"
 
 
 
@@ -19,8 +20,10 @@ export default function Nav() {
   }
   return (
     <div className='navBar'>
-     
-
+      <div className='logo'>
+        <Link to="https://www.accaglobal.com/gb/en/member/find-an-accountant/directory-of-member/results.html?isocountry=GB&FirstName=abbas&Surname=gulamabbas&Location=&inputcountrysuspended=&orgid=ACCA&orby=FNA&ipp=5&pn=1&hid=&requestcount=1"><img src={logo} alt='logo' /></Link>
+      </div>
+      <div className='menu'>
         <Link to="/" onClick={(e) => handleMenuItemClick(e, 'home')}>
         <i className="fas fa-home"></i>
         </Link>
@@ -34,7 +37,7 @@ export default function Nav() {
         <Link to="/contact" onClick={(e) => handleMenuItemClick(e, 'contact')}>
          <i className="fas fa-contact">Contact</i>
         </Link>
-      
+      </div>
         </div>
  
     
