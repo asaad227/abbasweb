@@ -6,14 +6,15 @@ import { ContactUs } from '../Contact';
 import Home from '../Home';
 import CookieConsent from 'react-cookie-consent';
 import ACCA from '../Home/ACCA LOGO RED.png';
-import Nav from '../Nav';
+// import Nav from '../Nav';
 import Promotion from '../FreeSession/index';
+import BurgerMenu from '../Navburger/BurgerMenu';
 
 
 export default function App() {
   return (
     <div className='App'>
-<Nav/>
+<BurgerMenu />
 
     <div id='home'><Home/></div>
       <div id='services'><Services/></div>

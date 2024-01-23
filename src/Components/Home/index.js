@@ -21,9 +21,6 @@ export default function Home() {
   }
   return (
     <div className='flexhome'>
-     
-     
-
     <div className='main-home'>
         <div className='header-home'>    
     <img src={logohome} className="logo-home" alt="logo-home" />

@@ -12,9 +12,7 @@
   z-index: 1;
 
 }
-.navBar img {
-  width: 50%;
-}
+
 .navBar a {
   color: white;
   text-decoration: none;
@@ -31,13 +29,13 @@
   color:gold;
 }
 
-@media screen and (min-width: 768px) {
- 
-
-  .navBar a {
-    margin-left: 2rem;
+@media screen and (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-
  
-  
+  .navBar a {
+    margin: 0.5rem 0;
+  }
 }
