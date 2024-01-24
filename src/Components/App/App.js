@@ -9,12 +9,14 @@ import ACCA from '../Home/ACCA LOGO RED.png';
 // import Nav from '../Nav';
 import Promotion from '../FreeSession/index';
 import BurgerMenu from '../Navburger/BurgerMenu';
+import Nav from '../Nav';
 
 
 export default function App() {
   return (
     <div className='App'>
 <BurgerMenu />
+<Nav />
 
     <div id='home'><Home/></div>
       <div id='services'><Services/></div>

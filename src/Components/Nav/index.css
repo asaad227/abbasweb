@@ -12,7 +12,9 @@
   z-index: 1;
 
 }
-
+.menu{
+  padding: 1rem 0.5rem;
+}
 .navBar a {
   color: white;
   text-decoration: none;
@@ -30,12 +32,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navBar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
- 
-  .navBar a {
-    margin: 0.5rem 0;
-  }
+ .navBar{
+    display: none;
+ }
 }
