@@ -19,7 +19,7 @@ const BurgerMenu = () => {
         top: targetElement.offsetTop - 75,
         behavior: 'smooth',
       });
-      setIsOpen(false);
+      // setIsOpen(false);
     }
   }
 
