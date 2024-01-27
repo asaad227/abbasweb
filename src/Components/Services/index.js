@@ -14,7 +14,7 @@ export default function Services() {
         {libary.map((e)=>{
           return(
             <div key={e.id} className='service'>
-              
+         
               <h3>{e.title}</h3>
               <img src={e.img} alt={e.alt}/>
              

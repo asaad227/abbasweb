@@ -22,7 +22,7 @@ export default function Promotion() {
   return (
     <div className='promotion'>
       <div className='promotion-main'>
-       <h3>Free Consultation</h3>
+       <h1>Free Consultation</h1>
         <p className='form-note'>For one hour free consultation, please fill in the form below and we will get back to you as soon as possible.</p>
         <img src={freeconsultation} alt='free-consultation'/>
         <form ref={form} onSubmit={sendEmail}>

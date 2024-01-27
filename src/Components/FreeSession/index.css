@@ -14,6 +14,10 @@
  
 }
 
+.promotion-main h1{
+   padding: 20px;
+}
+
 .promotion-main form{
     display: flex;
     flex-direction: column;
@@ -50,7 +54,7 @@
 
 }
 .promotion>.promotion-main img{
-    width: 40%;
+    width: 50%;
     margin-bottom: 5%;
 }
 
@@ -71,7 +75,7 @@
         width: 85%;
     }
     .promotion> .promotion-main img{
-        width: 50%;
+        width: 65%;
     }
 
     .promotion> .promotion-main > form > input, .promotion> .promotion-main > form > textarea{

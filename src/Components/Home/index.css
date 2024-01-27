@@ -29,7 +29,8 @@
     color: #004aad;
     align-items: center;
     width: 65%;
-    margin-bottom: 15%;
+   height: 10vh;
+    padding-right: 5%
 }
 .header-text-mobile{
     display: none;
@@ -68,6 +69,7 @@
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    margin-top: 1%;
+   
 }
 .logo-min{
     display: none;
@@ -280,7 +282,8 @@
         font-weight: 400;
         width: 100%;
         /* margin-top: 10%; */
-        margin-bottom: 15%;
+        /* margin-bottom: 15%; */
+        height: 10vh;
         padding-right: 5%;
     }
 

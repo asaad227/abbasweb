@@ -3,6 +3,7 @@ import './index.css';
 import homenew from './Abbas-home.png';
 import logohome from "./abbasLogo.png";
 import { Link } from 'react-router-dom';
+import { TypeAnimation } from 'react-type-animation';
 
 
 
@@ -26,8 +27,25 @@ export default function Home() {
     <img src={logohome} className="logo-home" alt="logo-home" />
     {/* <p><strong>Mobile:</strong>+44 078 9426 6018 <br></br> 
    <strong>Email:</strong> info@gulamabbasaccountants.co.uk</p> */}
-    <h6 className='header-text-mobile'>"Count on Us for Financial Success – Your Numbers, Our Expertise!"</h6>
-    <h5 className='header-text-desktop'>"Count on Us for Financial Success – Your Numbers, Our Expertise!"</h5>
+   <TypeAnimation
+  cursor={false}
+  sequence={[ 'Count on Us for Financial Success – Your Numbers, Our Expertise!']}
+  wrapper="h6"
+  repeat={1}
+  repeatDelay={2000}
+  className='header-text-mobile'
+/>
+<TypeAnimation
+  cursor={false}
+  sequence={[ 'Count on Us for Financial Success – Your Numbers, Our Expertise!']}
+  wrapper="h5"
+  repeat={1}
+  repeatDelay={2000}
+  className='header-text-desktop'
+/>
+
+    {/* <h6 className='header-text-mobile'>"Count on Us for Financial Success – Your Numbers, Our Expertise!"</h6>
+    <h5 className='header-text-desktop'>"Count on Us for Financial Success – Your Numbers, Our Expertise!"</h5> */}
     <div className='free-session-mobile'>
  <h6>One hour free consultation </h6>
  <button className='free-session-btn' ><Link to="/promotion" onClick={(e) => handleMenuItemClick(e, 'promotion')}>
