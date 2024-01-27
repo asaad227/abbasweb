@@ -15,11 +15,11 @@
     margin-bottom: 20px;
 }
 .about p{
-    width: 75%;
+    width: 100%;
     text-align: justify;
     text-justify: newspaper;
     word-spacing: normal;
-   padding: 20px 0px;
+   padding: 20px;
 
 }
 
